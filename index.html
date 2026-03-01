@@ -4,126 +4,83 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Parceros Barbershop | Fredericksburg, VA</title>
+
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 
-<style>
-body {
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  background-color: #000;
-  color: #fff;
-}
+<meta name="description" content="Parceros Barbershop in Fredericksburg, VA. Precision fades, beard trims, and premium grooming experience. Call today.">
 
-.hero {
-  height: 100vh;
-  background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85));
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 20px;
-}
-
-.logo {
-  width: 220px;
-  margin-bottom: 30px;
-}
-
-h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
-  color: #d4af37;
-}
-
-.subtitle {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
-}
-
-.btn {
-  display: inline-block;
-  padding: 14px 30px;
-  margin: 10px;
-  background: #d4af37;
-  color: #000;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 4px;
-  transition: 0.3s ease;
-}
-
-.btn:hover {
-  background: #b9972b;
-}
-
-.btn.secondary {
-  background: transparent;
-  border: 2px solid #d4af37;
-  color: #d4af37;
-}
-
-.btn.secondary:hover {
-  background: #d4af37;
-  color: #000;
-}
-
-section {
-  padding: 80px 20px;
-  text-align: center;
-}
-
-h2 {
-  color: #d4af37;
-  margin-bottom: 20px;
-  font-size: 2rem;
-}
-
-.contact p {
-  margin: 8px 0;
-  font-size: 1.1rem;
-}
-
-footer {
-  padding: 20px;
-  text-align: center;
-  background: #111;
-  font-size: 0.9rem;
-  color: #aaa;
-}
-</style>
 </head>
-
 <body>
 
-<div class="hero">
-  <div>
-    <img src="images/logo.jpg" class="logo" alt="Parceros Barbershop Logo">
-    <h1>Precision Cuts. Real Culture.</h1>
-    <p class="subtitle">Fredericksburg’s Premier Barbershop Experience</p>
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-content">
+        <img src="images/logo.jpg" alt="Parceros Barbershop Logo" class="logo">
 
-    <a href="tel:5403774089" class="btn">Call Now</a>
-    <a href="#contact" class="btn secondary">Visit Us</a>
-  </div>
-</div>
+        <h1>Precision Cuts. Real Culture.</h1>
+        <p class="subtitle">Fredericksburg’s Premier Barbershop Experience</p>
 
-<section>
-  <h2>About Us</h2>
-  <p>
-    At Parceros Barbershop, we combine culture, skill, and precision to deliver
-    clean fades, sharp beard trims, and elite service. We take pride in every cut
-    and make sure every client leaves confident.
-  </p>
+        <div class="hero-buttons">
+            <a href="tel:5403774089" class="btn">Call Now</a>
+            <a href="#contact" class="btn-outline">Visit Us</a>
+        </div>
+    </div>
 </section>
 
-<section id="contact" class="contact">
-  <h2>Visit Us Today</h2>
-  <p>11105 Leavells Rd, Fredericksburg, VA 22407</p>
-  <p>Phone: (540) 377-4089</p>
-  <p>Email: parceros0914@gmail.com</p>
+<!-- ABOUT -->
+<section class="about">
+    <h2>About Parceros</h2>
+    <p>
+        At Parceros Barbershop, we combine culture, precision, and craftsmanship to deliver clean fades, 
+        sharp beard trims, and premium service. Every cut is performed with attention to detail 
+        so you leave confident and fresh every time.
+    </p>
 </section>
 
+<!-- SERVICES -->
+<section class="services">
+    <h2>Our Services</h2>
+
+    <div class="service-grid">
+        <div class="service-card">
+            <h3>Haircut</h3>
+            <p>$35</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Beard Trim</h3>
+            <p>$20</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Kids Cut</h3>
+            <p>$30</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Haircut + Beard</h3>
+            <p>$50</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+    <h2>Visit Us Today</h2>
+
+    <p>11105 Leavells Rd, Fredericksburg, VA 22407</p>
+    <p>Phone: (540) 377-4089</p>
+    <p>Email: parceros0914@gmail.com</p>
+
+    <div class="contact-buttons">
+        <a href="tel:5403774089" class="btn">Call Now</a>
+    </div>
+</section>
+
+<!-- FOOTER -->
 <footer>
-  © 2026 Parceros Barbershop. All Rights Reserved.
+    <p>© 2026 Parceros Barbershop. All Rights Reserved.</p>
 </footer>
 
 </body>
